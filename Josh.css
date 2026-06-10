@@ -1,0 +1,89 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+ 
+body { 
+  font-family: Arial, sans-serif; 
+  color: #333333; 
+  line-height: 1.6; 
+} 
+ 
+/* ===== HEADER & NAVIGATION ===== */ 
+header { 
+  background-color: #b2bbc5; 
+  padding: 15px 40px; 
+  position: sticky; 
+  top: 0; 
+} 
+ 
+.nav-links { 
+  list-style: none; 
+  display: flex; 
+  gap: 30px; 
+  justify-content: flex-end; 
+} 
+ 
+.nav-links a { 
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
+  font-weight: bold; 
+} 
+ 
+.nav-links a:hover { 
+
+  color: #AED6F1; 
+} 
+ 
+/* ===== HERO SECTION ===== */ 
+.hero { 
+  background-color: #4b4f50; 
+  color: white; 
+  text-align: center; 
+  padding: 80px 20px; 
+} 
+ 
+.hero h1 { 
+  font-size: 48px; 
+  margin-bottom: 15px;
+  font-style: inherit; 
+  font-weight: 800;
+} 
+ 
+.hero p { 
+  font-size: 20px; 
+  margin-bottom: 30px; 
+} 
+.btn:hover { 
+  background-color: #02131e; 
+} 
+ 
+/* ===== SECTIONS ===== */ 
+.section { 
+  padding: 60px 80px; 
+  background-color: #FFFFFF; 
+} 
+img{
+    width:200px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+ 
+h2 { 
+  font-size: 32px; 
+  color: #1F4E79; 
+  margin-bottom: 20px; 
+  border-bottom: 3px solid #2E75B6; 
+  padding-bottom: 8px; 
+} 
+/* ===== FOOTER ===== */ 
+footer { 
+background-color: #ced1d5; 
+color: rgb(68, 26, 142); 
+text-align: center; 
+padding: 20px; 
+font-size: 14px; 
+} 
